@@ -6,15 +6,6 @@ Proyecto académico del curso **Aplicaciones Móviles** (6.º semestre). Réplic
 
 La aplicación muestra una interfaz de login fiel al diseño de referencia del banco: header con logo, ilustración hero, slogan de seguridad, tarjetas de métodos de autenticación, accesos rápidos y pie de pantalla. El layout se adapta a distintos tamaños de pantalla mediante `NestedScrollView` y `ConstraintLayout`. Es una entrega de **interfaz estática** (sin lógica de autenticación ni navegación).
 
-## Stack tecnológico
-
-| Tecnología | Uso |
-|------------|-----|
-| **Kotlin** | `MainActivity.kt` — actividad principal |
-| **XML** | Layouts, drawables, colores, dimensiones y cadenas |
-| **Android SDK** | Material Components, vistas del framework |
-| **Android Studio** | Desarrollo, compilación y ejecución en emulador o dispositivo |
-
 ## Entregable principal
 
 El archivo central de la entrega es el layout:
@@ -25,14 +16,13 @@ Define la estructura visual completa de la pantalla de login (header, hero, tarj
 
 ## Características
 
-- Layout responsive con `NestedScrollView` + `ConstraintLayout`
+- Layout responsive
 - Header con logo completo (PNG)
 - Ilustración hero (PNG)
 - Slogan de seguridad
 - Tres tarjetas de acceso: usuario/contraseña, huella/Face ID, PIN de 6 dígitos
 - Accesos rápidos: Ubícanos, Clave digital, Llámanos
 - Enlace inferior: ¿Ingresar con otro usuario?
-- Barra de estado clara sobre fondo blanco
 
 ## Paleta de colores
 
@@ -61,13 +51,9 @@ app/src/main/
     │   ├── ic_ubicacion.png           (utilidad ubicación)
     │   ├── ic_llave.png               (utilidad clave digital)
     │   └── ic_celular.png             (utilidad llamada)
-    ├── layout/
-    │   └── activity_main.xml
-    └── values/
-        ├── colors.xml
-        ├── dimens.xml
-        ├── strings.xml
-        └── styles.xml
+    └── layout/
+        └── activity_main.xml
+
 ```
 
 ## Assets PNG (`drawable/`)
@@ -85,115 +71,23 @@ Coloca tus imágenes PNG en `app/src/main/res/drawable/` con estos nombres exact
 | `ic_llave.png`    | Ícono Clave digital          |
 | `ic_celular.png`  | Ícono Llámanos               |
 
-El layout (`activity_main.xml`) ya referencia estos drawables. Solo reemplaza o añade los PNG en la carpeta indicada.
-
-## Requisitos
-
-- Android Studio (Ladybug o superior recomendado)
-- minSdk 34, targetSdk 36
-- Kotlin + Material Components
-
-## Cómo ejecutar
-
-1. Abre el proyecto en **Android Studio**.
-2. Sincroniza Gradle (Sync Project with Gradle Files).
-3. Crea o selecciona un **emulador** Android (API 34+) o conecta un dispositivo físico con depuración USB.
-4. Pulsa **Run** (▶) y verifica la pantalla de login en ejecución.
 
 ## Capturas de pantalla
-
-Evidencia visual de la aplicación en ejecución y del diseño de referencia. Puedes:
-
-- **Opción A:** Pegar las imágenes directamente en el editor de GitHub entre cada sección (debajo del encabezado).
-- **Opción B:** Guardar los PNG en la carpeta `capturas/` del repositorio y descomentar las líneas `![...](capturas/...)`.
-
-| Archivo sugerido | Contenido |
-|------------------|-----------|
-| `capturas/captura1.png` | Vista completa del login |
-| `capturas/captura2.png` | Tarjetas de autenticación |
-| `capturas/captura3.png` | Accesos rápidos y footer |
-| `capturas/captura4.png` | Diseño de referencia de la app |
-
----
-
 ### Captura 1 — Vista completa de la pantalla de Login en ejecución
-
-<!-- Pegar imagen aquí -->
-
-![Captura 1](capturas/captura1.png)
-
-*(insertar imagen aquí)*
-
-
-
-
-
-
-
-
-
-
+<img width="382" height="730" alt="image" src="https://github.com/user-attachments/assets/fde869b4-eb99-4d98-95bb-644f8e4da516" />
 ---
 
 ### Captura 2 — Tarjetas de Autenticación en ejecución
-
-<!-- Pegar imagen aquí -->
-
-![Captura 2](capturas/captura2.png)
-
-*(insertar imagen aquí)*
-
-
-
-
-
-
-
-
-
+<img width="584" height="196" alt="image" src="https://github.com/user-attachments/assets/b6b198e0-4756-4002-a4c4-8688911b1e17" />
 
 ---
 
 ### Captura 3 — Accesos Rápidos y Footer en ejecución
-
-<!-- Pegar imagen aquí -->
-
-![Captura 3](capturas/captura3.png)
-
-*(insertar imagen aquí)*
-
-
-
-
-
-
-
-
-
+<img width="616" height="277" alt="image" src="https://github.com/user-attachments/assets/5a186d96-62da-411d-afaf-c80164708bc7" />
 
 ---
 
 ### Captura 4 — Captura del diseño de la App
-
-<!-- Pegar imagen aquí -->
-
-![Captura 4](capturas/captura4.png)
-
-*(insertar imagen aquí)*
-
-
-
-
-
-
-
-
-
+<img width="1518" height="902" alt="image" src="https://github.com/user-attachments/assets/d99492d5-1e0c-40e9-bb98-a72ad3b7878d" />
 
 ---
-
-## Notas
-
-- Los íconos e ilustraciones son PNG proporcionados por el usuario; no se incluyen vectores XML temporales.
-- Las tarjetas y utilidades son solo UI; no tienen navegación ni lógica de autenticación implementada.
-- Proyecto con fines educativos; no está afiliado a Banco Pichincha.
