@@ -4,9 +4,8 @@ Proyecto académico del curso **Aplicaciones Móviles** (6.º semestre). Réplic
 
 ## Descripción
 
-La aplicación muestra una interfaz de login fiel al diseño de referencia del banco: header con logo, ilustración hero, slogan de seguridad, tarjetas de métodos de autenticación, accesos rápidos y pie de pantalla. El layout se adapta a distintos tamaños de pantalla mediante `NestedScrollView` y `ConstraintLayout`. Es una entrega de **interfaz estática** (sin lógica de autenticación ni navegación).
+La aplicación muestra una interfaz de login fiel al diseño de referencia del banco: header con logo, ilustración hero, slogan de seguridad, tarjetas de métodos de autenticación, accesos rápidos y pie de pantalla. El layout se adapta a distintos tamaños de pantalla. Es una entrega de **interfaz estática** (sin lógica de autenticación ni navegación).
 
-## Entregable principal
 
 El archivo central de la entrega es el layout:
 
@@ -56,9 +55,7 @@ app/src/main/
 
 ```
 
-## Assets PNG (`drawable/`)
-
-Coloca tus imágenes PNG en `app/src/main/res/drawable/` con estos nombres exactos:
+## Imagenes PNG (`drawable/`)
 
 | Archivo           | Uso en pantalla              |
 |-------------------|------------------------------|
@@ -75,6 +72,7 @@ Coloca tus imágenes PNG en `app/src/main/res/drawable/` con estos nombres exact
 ## Capturas de pantalla
 ### Captura 1 — Vista completa de la pantalla de Login en ejecución
 <img width="382" height="730" alt="image" src="https://github.com/user-attachments/assets/fde869b4-eb99-4d98-95bb-644f8e4da516" />
+
 ---
 
 ### Captura 2 — Tarjetas de Autenticación en ejecución
@@ -85,7 +83,7 @@ Coloca tus imágenes PNG en `app/src/main/res/drawable/` con estos nombres exact
 ### Captura 3 — Accesos Rápidos y Footer en ejecución
 <img width="616" height="277" alt="image" src="https://github.com/user-attachments/assets/5a186d96-62da-411d-afaf-c80164708bc7" />
 
----
+
 
 ### Captura 4 — Captura del diseño de la App
 <img width="1518" height="902" alt="image" src="https://github.com/user-attachments/assets/d99492d5-1e0c-40e9-bb98-a72ad3b7878d" />
