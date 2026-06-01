@@ -83,9 +83,7 @@ app/src/main/
 ### Captura 3 — Accesos Rápidos y Footer en ejecución
 <img width="616" height="277" alt="image" src="https://github.com/user-attachments/assets/5a186d96-62da-411d-afaf-c80164708bc7" />
 
-
+---
 
 ### Captura 4 — Captura del diseño de la App
 <img width="1518" height="902" alt="image" src="https://github.com/user-attachments/assets/d99492d5-1e0c-40e9-bb98-a72ad3b7878d" />
-
----
